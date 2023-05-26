@@ -1,5 +1,7 @@
-# pynab-client
+# pynab-client-pc
 Python API module for interfacing with You Need a Budget's (YNAB) v1 API
+
+Modified to allow parameters passed to YNAB in get_transaction
 
 Only runs on python >3.6 .....#sorrynotsorry
 

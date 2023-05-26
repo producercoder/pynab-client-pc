@@ -9,4 +9,4 @@ Copyright (c) 2019, iRunAsRoot
 from .ynab import YnabClient
 
 
-name = "pynabapi"
+name = "pynabapipc"

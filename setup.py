@@ -12,8 +12,8 @@ with open("README.md", "r") as md:
 
 
 setup(
-  name="pynab-client",
-  packages=["pynabapi", "pynabapi.model"],
+  name="pynab-client-pc",
+  packages=["pynabapipc", "pynabapipc.model"],
   version="0.2",
   license="GNU GPLv3",
   description="Python API to access YNAB v1 API",
