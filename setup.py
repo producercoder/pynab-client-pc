@@ -12,7 +12,7 @@ with open("README.md", "r") as md:
 
 
 setup(
-  name="pynab-client",
+  name="pynab-client-pc",
   packages=["pynabapi", "pynabapi.model"],
   version="0.2",
   license="GNU GPLv3",
