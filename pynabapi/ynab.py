@@ -191,7 +191,7 @@ class YnabClient:
 
         return pay
 
-    def get_transaction(self, transaction_id=None, budget_id="last-used"):
+    def get_transaction(self, transaction_id=None, budget_id="last-used", parameters=None):
         """
         Get budget transaction or transactions.
 
@@ -204,7 +204,8 @@ class YnabClient:
 
         d = self._request_stuff(_endpoints["transactions"]["path"].format(budget_id=budget_id,
                                                                           transaction_id=transaction_id if
-                                                                          transaction_id else ""))
+                                                                          transaction_id else "",
+                                                                          parameters=parameters if parameters else ""))
 
         tran = None
 
@@ -214,6 +215,7 @@ class YnabClient:
             tran = Transactions().from_json_list(Transaction, d["transactions"])
 
         return tran
+
 
 
 
