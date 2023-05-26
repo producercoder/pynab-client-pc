@@ -1,8 +1,5 @@
 """
 setup.py
-Author: Dennis Whitney
-Email: dennis@runasroot.com
-Copyright (c) 2019, iRunAsRoot
 """
 
 from setuptools import setup
@@ -16,12 +13,7 @@ setup(
   packages=["pynabapipc", "pynabapipc.model"],
   version="0.2",
   license="GNU GPLv3",
-  description="Python API to access YNAB v1 API",
-  long_description=long_description,
-  long_description_content_type="text/markdown",
-  author="Dennis Whitney",
-  author_email="dennis@irunasroot.com",
-  url="https://github.com/irunasroot/pynab-client",
+  url="https://github.com/irunasroot/pynab-client-pc",
   download_url="https://github.com/irunasroot/pynab-client/archive/v0.2.tar.gz",
   keywords=["ynab", "pynab", "budgeting", "budgets", "youneedabudget"],
   install_requires=[
