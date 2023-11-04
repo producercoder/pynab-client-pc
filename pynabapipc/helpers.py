@@ -8,7 +8,7 @@ Copyright (c) 2019, iRunAsRoot
 
 _endpoints = {
     "base_url": {
-        "url": "https://api.youneedabudget.com/v1"
+        "url": "https://api.ynab.com/v1"
     },
     "budgets": {
         "path": "/budgets/{budget_id}"
